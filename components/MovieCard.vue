@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="max-w-sm p-6 bg-[#eee] border border-[#ccc] rounded-sm shadow dark:bg-[#111] dark:border-[#333]">
-            <NuxtLink @click="changeItemState" :to="`/item/${title}`">
+            <NuxtLink @click="changeItemState(item)" :to="`/item/${title}`">
                 <img class="rounded-t-sm" :src="`${imageSiteUrl}${poster_path}`" alt="Movie">
             </NuxtLink>
             <div class="p-5">
