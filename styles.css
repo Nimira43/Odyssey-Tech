@@ -209,13 +209,23 @@ font-family: 'Amatic SC', sans-serif;
     margin-right: 15rem;
 }
 
-.greeting {
+/* .greeting {
   font-size: 1.6rem;
   text-transform: uppercase;
   color: var(--secondary);
   letter-spacing: 0.1rem;
-}
+} */
 
+.dev-img-wrapper {
+  width: 60rem;
+  height: 60rem;
+  border-radius: 50%;
+  background-color: var(--primary);
+  padding: 2rem 2rem 0 2rem;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  position: relative;
+}
 
 
 @media (max-width: 1700px) {
