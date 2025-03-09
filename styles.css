@@ -205,6 +205,19 @@ font-family: 'Amatic SC', sans-serif;
   bottom: -3rem;
 }
 
+.developer-info {
+    margin-right: 15rem;
+}
+
+.greeting {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  color: var(--secondary);
+  letter-spacing: 0.1rem;
+}
+
+
+
 @media (max-width: 1700px) {
   html {
     font-size: 57%;
