@@ -180,12 +180,16 @@ html {
   html {
     font-size: 52%;
   }
+  .section-bg-heading {
+    font-size: 23rem;
+  } 
 }
 
 @media (max-width: 1200px) {
   html {
     font-size: 45%;
   }
+  
 }
 
 @media (max-width: 900px) {
@@ -194,6 +198,9 @@ html {
   }
   .section-border {
     display: none;
+  }
+  .section-bg-heading {
+    font-size: 20rem;
   }
 }
 
