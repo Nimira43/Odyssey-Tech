@@ -235,18 +235,30 @@ font-family: 'Amatic SC', sans-serif;
 .dev-work {
   width: 25rem;
   height: 9rem;
-  background-color: var(--primary);
+  background-color: var(--dark);
   font-size: 1.4rem;
   text-transform: uppercase;
-  color: var(--dark);
-  border: 0.2rem solid var(--dark);
+  color: var(--secondary);
+  border: 0.2rem solid var(--primary);
   border-radius: 6rem;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0 2rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
+  position: absolute;
 }
+
+.dev-experience {
+  bottom: 10rem;
+  right: 40rem;
+}
+
+.dev-projects {
+  bottom: 1rem;
+  right: -2rem;
+}
+
 
 
 @media (max-width: 1700px) {
