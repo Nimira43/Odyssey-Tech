@@ -55,10 +55,17 @@ html {
 
 .change .line-1 {
   transform: rotateZ(45deg) translate(0.7rem, -0.1rem);
+  transition: background-color 0.3s 0.3s;
 }
 
 .change .line-2 {
   transform: rotateZ(-45deg) translate(0.7rem, -0.1rem);
+  transition: background-color 0.3s 0.3s;
+}
+
+.change .line-1,
+.change .line-2 {
+  background-color: var(--secondary);
 }
 
 .navigation {
@@ -177,7 +184,7 @@ font-family: 'Amatic SC', sans-serif;
   height: 3rem;
   border: 0.2rem solid var(--secondary);
   border-radius: 50%;
-  background: var(--primary);
+  background: var(--secondary-dark);
   position: absolute;
   left: -1.65rem;
 }
