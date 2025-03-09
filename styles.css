@@ -16,7 +16,7 @@ html {
 
 :root {
   --primary: #ff4500;
-  --secondary: #008080;
+  --secondary: #0fa2a2;
   --secondary-dark: #012222;
   --light: #fffcfa;
   --dark: #111;
@@ -130,4 +130,24 @@ html {
   background-color: var(--secondary);
   margin-right: 10rem;
   position: relative;
+}
+
+.section-border::before,
+.section-border::after {
+  content: '';
+  width: 3rem;
+  height: 3rem;
+  border: 0.2rem solid var(--secondary);
+  border-radius: 50%;
+  background: var(--dark);
+  position: absolute;
+  left: -1.65rem;
+}
+
+.section-border::before {
+  top: -3rem;
+}
+
+.section-border::after {
+  bottom: -3rem;
 }
