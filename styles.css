@@ -152,8 +152,7 @@ html {
   left: 5rem;
   font-size: 3rem;
   display: flex;
-  align-items: center;
-  
+  align-items: center; 
 }
 
 .logo span {
@@ -209,12 +208,43 @@ font-family: 'Amatic SC', sans-serif;
     margin-right: 15rem;
 }
 
-/* .greeting {
-  font-size: 1.6rem;
+.greeting {
+  font-size: 1.8rem;
   text-transform: uppercase;
   color: var(--secondary);
   letter-spacing: 0.1rem;
-} */
+}
+
+.name {
+  font-size: 10rem;
+  width: 60rem;
+  margin: 2rem 0 2rem 0;
+  color: var(--primary)
+}
+
+.name span {
+  font-family: 'Amatic SC', sans-serif;
+}
+
+.name span:nth-child(2) {
+  color: var(--secondary);
+}
+
+.about {
+  width: 60rem;
+  font-size: 2.5rem;
+  line-height: 1;
+  color: var(--primary);
+  margin-bottom: 5rem;
+}
+
+.profession {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  color: var(--secondary);
+  letter-spacing: 0.2rem;
+  margin-bottom: 6rem;
+}
 
 .dev-img-wrapper {
   width: 60rem;
@@ -222,7 +252,7 @@ font-family: 'Amatic SC', sans-serif;
   border-radius: 50%;
   background-color: transparent;
   padding: 2rem 2rem 0 2rem;
-  box-shadow: 0 1.5rem 1.5rem rgba(255, 68, 0, 0.2);
+  box-shadow: 0 -0.5rem 0.5rem rgba(255, 68, 0, 0.2);
   overflow: hidden;
   position: relative;
 }
@@ -276,6 +306,9 @@ font-family: 'Amatic SC', sans-serif;
   }
   .section-bg-heading {
     font-size: 17rem;
+  }
+  .developer-img {
+    display: none;
   }
 }
 
