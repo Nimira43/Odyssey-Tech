@@ -181,3 +181,18 @@ html {
     display: none;
   }
 }
+
+@media (max-width: 700px) {
+  html {
+    font-size: 35%;
+  }
+}
+
+@media (max-width: 500px) {
+  .navigation {
+    width: 100%;
+    right: -100rem;
+    justify-content: center;
+    text-align: center
+  }
+}
