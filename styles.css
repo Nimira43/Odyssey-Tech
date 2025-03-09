@@ -230,6 +230,14 @@ font-family: 'Amatic SC', sans-serif;
   color: var(--secondary);
 }
 
+.profession {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  color: var(--secondary);
+  letter-spacing: 0.2rem;
+  margin-bottom: 6rem;
+}
+
 .about {
   width: 60rem;
   font-size: 2.5rem;
@@ -238,12 +246,15 @@ font-family: 'Amatic SC', sans-serif;
   margin-bottom: 5rem;
 }
 
-.profession {
-  font-size: 1.8rem;
-  text-transform: uppercase;
+.social-media {
+  margin-bottom: 5rem;
+}
+
+.social-media i {
+  font-size: 2.5rem;
   color: var(--secondary);
-  letter-spacing: 0.2rem;
-  margin-bottom: 6rem;
+  margin-right: 2rem;
+  cursor: pointer;
 }
 
 .dev-img-wrapper {
