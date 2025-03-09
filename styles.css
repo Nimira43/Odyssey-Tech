@@ -75,7 +75,7 @@ html {
   width: var(--rem-3);
   height: var(--size-2);
   background-color: var(--primary);
-  transition: transform 0.3s;
+  transition: transform 0.5s;
 }
 
 .change .line-1 {
@@ -98,4 +98,17 @@ html {
 .nav-items {
   display: flex;
   flex-direction: column;
+}
+
+.nav-items a {
+  font-size: var(--rem-3);
+  text-transform: uppercase;
+  letter-spacing: var(--size-2);
+  color: var(--primary);
+  margin: var(--rem-1) 0;
+  transition: color 0.5s;
+}
+
+.nav-items a:hover {
+  color: var(--light);
 }
