@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=VT323&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
 
 * {
   font-family: 'Cormorant Garamond', serif;
@@ -18,7 +16,7 @@ html {
 
 :root {
   --primary: #ff4500;
-  --secondary: #2ab1b1;
+  --secondary: #39dada;
   --secondary-dark: #012222;
   --light: #fffcfa;
   --dark: #111;
@@ -138,7 +136,30 @@ html {
   font-size: 30rem;
   font-family: 'Amatic SC', sans-serif;
   color: var(--primary);
-  opacity: 0.5;
+  opacity: 0.2;
+}
+
+.logo {
+  position: absolute;
+  top: 4rem;
+  left: 5rem;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  
+}
+
+.logo span {
+font-family: 'Amatic SC', sans-serif;
+}
+
+.logo span:nth-child(1) {
+  color: var(--secondary);
+  
+}
+
+.logo span:nth-child(2) {
+  color: var(--primary);
 }
 
 .section-border {
@@ -156,7 +177,7 @@ html {
   height: 3rem;
   border: 0.2rem solid var(--secondary);
   border-radius: 50%;
-  background: var(--dark);
+  background: var(--primary);
   position: absolute;
   left: -1.65rem;
 }
