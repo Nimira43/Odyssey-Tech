@@ -17,6 +17,7 @@ html {
 :root {
   --primary: #ff4500;
   --secondary: #008080;
+  --secondary-dark: #012222;
   --light: #fffcfa;
   --dark: #111;
   --grey-light-extra: #eee;
@@ -48,4 +49,10 @@ html {
 
 .feature-font {
   font-family: 'VT323', monospace;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: var(--secondary-dark);
 }
