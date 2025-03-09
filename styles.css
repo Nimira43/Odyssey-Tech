@@ -26,10 +26,6 @@ html {
   --grey-dark: #333;
 }
 
-.feature-font {
-  font-family: 'VT323', monospace;
-}
-
 .container {
   width: 100%;
   height: 100%;
@@ -128,7 +124,19 @@ html {
   width: 100%;
   height: 100vh;
   position:relative;
-  color: white; 
+}
+
+.landing-heading {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  text-align: center;
+  font-size: 30rem;
+  font-family: 'VT323', monospace;
+  color: var(--primary);
+  opacity: 0.5;
 }
 
 .section-border {
