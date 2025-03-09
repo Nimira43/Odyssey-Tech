@@ -24,27 +24,6 @@ html {
   --grey-light: #ccc;
   --grey-medium: #999;
   --grey-dark: #333;
-  --size-1: 1px;          /* 0.1rem */
-  --size-2: 2px;          /* 0.2rem */
-  --size-3: 3px;          /* 0.3rem */
-  --size-4: 4px;          /* 0.4rem */
-  --size-5: 5px;          /* 0.5rem */
-  --size-6: 6px;          /* 0.6rem */
-  --size-8: 8px;          /* 0.8rem */
-  --size-12: 12px;        /* 1.2rem */
-  --size-14: 14px;        /* 1.4rem */
-  --rem-1: 1rem;          /* 10px */
-  --rem-1-5: 1.5rem;      /* 15px */
-  --rem-1-6: 1.6rem;      /* 16px */
-  --rem-2: 2rem;          /* 20px */
-  --rem-2-5: 2.5rem;      /* 25px */
-  --rem-3: 3rem;          /* 30px */
-  --rem-3-5: 3.5rem;      /* 35px */
-  --rem-4: 4rem;          /* 40px */
-  --rem-5: 5rem;          /* 50px */
-  --rem-6: 6rem;          /* 60px */
-  --rem-8: 8rem;          /* 80px */
-  --rem-10: 10rem;        /* 100px */
 }
 
 .feature-font {
@@ -58,11 +37,11 @@ html {
 }
 
 .menu-icon {
-  width: var(--rem-3);
-  height: var(--rem-3);
+  width: 3rem;
+  height: 3rem;
   position: fixed;
-  top: var(--rem-5);
-  right: var(--rem-5);
+  top: 5rem;
+  right: 5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -72,10 +51,10 @@ html {
 }
 
 .line {
-  width: var(--rem-3);
-  height: var(--size-2);
+  width: 3rem;
+  height: 0.2rem;
   background-color: var(--primary);
-  transition: transform 0.5s;
+  transition: transform 0.3s;
 }
 
 .change .line-1 {
@@ -87,28 +66,50 @@ html {
 }
 
 .navigation {
+  position: fixed;
+  top: -8rem;
+  right: -63rem;
   width: 50rem;
+  transform: rotateZ(-15deg);
   height: 100vh;
   background-color: var(--dark);
+  z-index: 100;
   display: flex;
   align-items: center;
   padding-left: 8rem;
+  z-index: 150;
+  transition: all 0.6s;
+}
+
+.change .navigation {
+  top: 0;
+  right: 0;
+  transform: rotateZ(0);
 }
 
 .nav-items {
   display: flex;
   flex-direction: column;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.change .nav-items {
+  opacity: 1;
+  visibility: visible;
+  transition: 0.5s 0.7s;
 }
 
 .nav-items a {
-  font-size: var(--rem-3);
+  font-size: 3rem;
   text-transform: uppercase;
-  letter-spacing: var(--size-2);
+  letter-spacing: 0.2rem;
   color: var(--primary);
-  margin: var(--rem-1) 0;
+  margin: 1rem 0;
   transition: color 0.5s;
 }
 
 .nav-items a:hover {
   color: var(--light);
 }
+
