@@ -151,3 +151,18 @@ html {
 .section-border::after {
   bottom: -3rem;
 }
+
+@media (max-width: 1700px) {
+  html {
+    font-size: 57%;
+  }
+  .navigation {
+    right: -70rem;
+  }
+}
+
+@media (max-width: 1500px) {
+  html {
+    font-size:52%;
+  }
+}
