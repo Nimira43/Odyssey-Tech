@@ -94,3 +94,8 @@ html {
   align-items: center;
   padding-left: 8rem;
 }
+
+.nav-items {
+  display: flex;
+  flex-direction: column;
+}
