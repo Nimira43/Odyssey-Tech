@@ -169,6 +169,14 @@ font-family: 'Amatic SC', sans-serif;
   color: var(--primary);
 }
 
+.banner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+
 .section-border {
   height: 55rem;
   width: 0.3rem;
