@@ -100,6 +100,17 @@ html {
   transition: 0.5s 0.7s;
 }
 
+.navigation .section-border {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.change .navigation .section-border {
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.5s 0.7s;
+}
+
 .nav-items a {
   font-size: 3rem;
   text-transform: uppercase;
@@ -110,6 +121,13 @@ html {
 }
 
 .nav-items a:hover {
-  color: var(--light);
+  color: var(--secondary);
 }
 
+.section-border {
+  height: 55rem;
+  width: 0.3rem;
+  background-color: var(--secondary);
+  margin-right: 10rem;
+  position: relative;
+}
