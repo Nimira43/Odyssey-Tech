@@ -257,22 +257,6 @@ font-family: 'Amatic SC', sans-serif;
   cursor: pointer;
 }
 
-.dev-img-wrapper {
-  width: 60rem;
-  height: 60rem;
-  border-radius: 50%;
-  background-color: transparent;
-  padding: 2rem 2rem 0 2rem;
-  box-shadow: 0 -0.5rem 0.5rem rgba(255, 68, 0, 0.2);
-  overflow: hidden;
-  position: relative;
-}
-
-.dev-img-wrapper img {
-  width: 100%;
-  height: 100%;
-}
-
 .btn {
   width: 20rem;
   height: 6rem;
@@ -307,7 +291,21 @@ font-family: 'Amatic SC', sans-serif;
   transition: transform 0.5s;
 }
 
+.dev-img-wrapper {
+  width: 60rem;
+  height: 60rem;
+  border-radius: 50%;
+  background-color: transparent;
+  padding: 2rem 2rem 0 2rem;
+  box-shadow: 0 -0.5rem 0.5rem rgba(255, 68, 0, 0.2);
+  overflow: hidden;
+  position: relative;
+}
 
+.dev-img-wrapper img {
+  width: 100%;
+  height: 100%;
+}
 
 @media (max-width: 1700px) {
   html {
