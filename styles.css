@@ -316,6 +316,22 @@ font-family: 'Amatic SC', sans-serif;
   align-items: center;
 }
 
+.section-heading {
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 6rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  color: var(--primary);
+  margin-bottom: 3rem;
+}
+
+.sub-heading {
+  font-size: 2rem;
+  color: var(--secondary);
+  text-transform: uppercase;
+}
+
 @media (max-width: 1700px) {
   html {
     font-size: 57%;
