@@ -282,6 +282,13 @@ html {
   text-transform: uppercase;
 }
 
+.skills-cards {
+  width: 140rem;
+  margin: 8rem 0 0 10rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 @media (max-width: 1700px) {
   html {
     font-size: 57%;
