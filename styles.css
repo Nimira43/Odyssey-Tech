@@ -155,7 +155,11 @@ html {
   align-items: center; 
 }
 
-.logo span {
+.logo {
+  color: var(--primary);
+}
+
+/* .logo span {
 font-family: 'Amatic SC', sans-serif;
 }
 
@@ -166,7 +170,7 @@ font-family: 'Amatic SC', sans-serif;
 
 .logo span:nth-child(2) {
   color: var(--primary);
-}
+} */
 
 .banner {
   position: absolute;
@@ -176,7 +180,7 @@ font-family: 'Amatic SC', sans-serif;
   display: flex;
 }
 
-.section-border {
+/* .section-border {
   height: 55rem;
   width: 0.3rem;
   background-color: var(--secondary);
@@ -202,7 +206,7 @@ font-family: 'Amatic SC', sans-serif;
 
 .section-border::after {
   bottom: -3rem;
-}
+} */
 
 .developer-info {
     margin-right: 15rem;
@@ -332,12 +336,12 @@ font-family: 'Amatic SC', sans-serif;
   text-transform: uppercase;
 }
 
-.skills .section-border {
+/* .skills .section-border {
   position: absolute;
   left: 20rem;
   top: 50%;
   transform: translateY(-50%);
-}
+} */
 
 @media (max-width: 1700px) {
   html {
@@ -346,9 +350,9 @@ font-family: 'Amatic SC', sans-serif;
   .navigation {
     right: -70rem;
   }
-  .skills .section-border {
+  /* .skills .section-border {
     left: 10rem;
-  }
+  } */
 }
 
 @media (max-width: 1500px) {
@@ -362,9 +366,9 @@ font-family: 'Amatic SC', sans-serif;
     height: 100%;
     padding: 10rem 0 20rem 0;
   }
-  .skills .section-border {
+  /* .skills .section-border {
     height: 85rem;
-  }
+  } */
 }
 
 @media (max-width: 1200px) {
@@ -377,9 +381,9 @@ font-family: 'Amatic SC', sans-serif;
   html {
     font-size: 39%;
   }
-  .section-border {
+  /* .section-border {
     display: none;
-  }
+  } */
   .section-bg-heading {
     font-size: 20rem;
   }
