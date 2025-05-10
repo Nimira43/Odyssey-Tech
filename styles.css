@@ -289,6 +289,15 @@ html {
   flex-wrap: wrap;
 }
 
+.skills-card {
+  width: 40rem;
+  height: 18rem;
+  margin: 3rem;
+  padding: 0 3rem;
+  background-color: var(--dark);
+  position: relative;
+}
+
 @media (max-width: 1700px) {
   html {
     font-size: 57%;
