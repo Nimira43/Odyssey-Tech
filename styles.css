@@ -270,21 +270,16 @@ html {
   font-family: 'Amatic SC', sans-serif;
   font-size: 6rem;
   font-weight: 500;
+  text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   color: var(--primary);
   margin-bottom: 3rem;
 }
 
-.sub-heading {
-  font-size: 2rem;
-  color: var(--secondary);
-  text-transform: uppercase;
-}
-
 .skills-cards {
   width: 140rem;
-  margin: 8rem 0 0 10rem;
+  margin: 4rem;
   display: flex;
   flex-wrap: wrap;
 }
@@ -294,14 +289,25 @@ html {
   height: 18rem;
   margin: 3rem;
   padding: 0 3rem;
-  background-color: var(--dark);
   position: relative;
+  text-align: center;
 }
 
 .skill {
-  display: flex;
-  justify-content: space-between;
   margin-bottom: 2rem;
+  
+}
+
+.skill span {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: var(--secondary);
+}
+
+.skills-card p {
+  font-size: 2rem;
+  color: var(--primary);
+  margin-bottom: 4rem;
 }
 
 @media (max-width: 1700px) {
