@@ -298,6 +298,12 @@ html {
   position: relative;
 }
 
+.skill {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
 @media (max-width: 1700px) {
   html {
     font-size: 57%;
