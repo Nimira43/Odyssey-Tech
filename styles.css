@@ -366,8 +366,11 @@ html {
   font-size: 3rem;
   font-weight: 300;
   text-transform: uppercase;
-  color: var(--secondary) 
+  color: var(--secondary); 
+  margin-top: -2rem;
 }
+
+.project-description {}
 
 @media (max-width: 1700px) {
   html {
