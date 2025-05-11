@@ -346,6 +346,18 @@ html {
   z-index: 10;
 }
 
+.project-card {
+  width: 40rem;
+  height: 55rem;
+  background-color: var(--secondary-dark);
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 @media (max-width: 1700px) {
   html {
     font-size: 57%;
