@@ -417,6 +417,20 @@ html {
   margin: 3rem 0;
 }
 
+.contact-left i {
+  width: 5rem;
+  height: 5rem;
+  border: 0 2rem solid var(--secondary);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: var(--primary);
+  margin-right: 9rem;
+  position: relative;
+}
+
 @media (max-width: 1700px) {
   html {
     font-size: 57%;
