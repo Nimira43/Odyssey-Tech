@@ -431,6 +431,7 @@ html {
   position: relative;
 }
 
+                                                                                                                                                                                                                                                                                                                             
 .contact-left i::after {
   content: '';
   width: 4rem;
@@ -441,6 +442,18 @@ html {
   transform: translateY(-50%);
   right: -4rem;
 }
+
+.contact-info {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  background: red;
+}
+
+.contact-info span {
+  width: 100%;
+}
+
 
 @media (max-width: 1700px) {
   html {
