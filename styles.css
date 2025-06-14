@@ -420,7 +420,7 @@ html {
 .contact-left i {
   width: 5rem;
   height: 5rem;
-  border: 0 2rem solid var(--secondary);
+  border: 0.2rem solid var(--secondary);
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -429,6 +429,17 @@ html {
   color: var(--primary);
   margin-right: 9rem;
   position: relative;
+}
+
+.contact-left i::after {
+  content: '';
+  width: 4rem;
+  height: 0.2rem;
+  background-color: var(--secondary);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -4rem;
 }
 
 @media (max-width: 1700px) {
