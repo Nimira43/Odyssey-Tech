@@ -542,18 +542,33 @@ textarea {
   height: 10rem;
   background-color: var(--dark);
   display: flex;
+  padding: 3rem;
   justify-content: space-between;
   align-items: center;
 }
 
 .icons i {
   font-size: 2rem;
-  color: var(--primary);
+  color: var(--secondary);
   margin-right: 2rem;
+  transition: color 0.5s ease-in;
   cursor: pointer;
 }
 
+.icons i:hover {
+  color: var(--primary);
+}
 
+.copyright p,
+.author p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--secondary);
+}
+
+.copyright p {
+  margin-right: 1rem;
+}
 
 @media (max-width: 1700px) {
   html {
@@ -561,6 +576,9 @@ textarea {
   }
   .navigation {
     right: -70rem;
+  }
+  .contact.section-border {
+    left: 10rem;
   }
 }
 
