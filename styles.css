@@ -446,24 +446,21 @@ html {
   width: 20rem;
   display: flex;
   flex-direction: column;
-  background: red;
 }
 
 .contact-info span {
   width: 100%;
 }
+
 .contact-info span:nth-child(1) {
-  font-family: "Caveat", cursive;
   font-size: 3rem;
-  font-weight: bold;
-  color: #fff;
+  color: var(--primary);
   margin-bottom: 0.5rem;
 }
 
 .contact-info span:nth-child(2) {
   font-size: 1.6rem;
-  font-weight: 300;
-  color: #777;
+  color: var(--secondary);
 }
 
 .contact-right {
@@ -488,7 +485,7 @@ html {
   letter-spacing: 0.1rem;
   text-transform: uppercase;
   margin: 0 0 1.5rem 2rem;
-  color: white;
+  color: var(--primary);
 }
 
 .input-group input,
@@ -496,10 +493,10 @@ textarea {
   height: 6rem;
   margin: 0 3rem 5rem 0;
   background-color: transparent;
-  border: 0.2rem solid white;
+  border: 0.2rem solid var(--secondary);
   border-radius: 0.3rem;
   font-size: 1.6rem;
-  color: white;
+  color: var(--primary);
   padding: 1rem 1rem 1rem 2rem;
 }
 
@@ -517,9 +514,9 @@ textarea {
   width: calc(100% - 3rem);
   height: 5rem;
   background-color: transparent;
-  border: 0.2rem solid white;
-  border-radius: 3rem;
-  color: white;
+  border: 0.2rem solid var(--secondary);
+  border-radius: 0.3rem;
+  color: var(--primary);
   text-transform: uppercase;
   font-size: 1.6rem;
   letter-spacing: 0.2rem;
