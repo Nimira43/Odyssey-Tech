@@ -461,7 +461,14 @@ html {
   align-items: center;
 }
 
+.input-groups {
+  display: flex;
+}
 
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
 
 @media (max-width: 1700px) {
   html {
