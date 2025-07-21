@@ -430,8 +430,7 @@ html {
   margin-right: 9rem;
   position: relative;
 }
-
-                                                                                                                                                                                                                                                                                                                             
+                            
 .contact-left i::after {
   content: '';
   width: 4rem;
@@ -453,6 +452,16 @@ html {
 .contact-info span {
   width: 100%;
 }
+
+.contact-right {
+  width: 60rem;
+  height: 60rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 
 @media (max-width: 1700px) {
   html {
