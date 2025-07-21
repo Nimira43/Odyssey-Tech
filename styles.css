@@ -577,8 +577,14 @@ textarea {
   .navigation {
     right: -70rem;
   }
+  .skills .section-border {
+    left: 10rem;
+  }
   .contact.section-border {
     left: 10rem;
+  }
+  .contact-content {
+    width: 120rem;
   }
 }
 
