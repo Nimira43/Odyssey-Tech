@@ -546,6 +546,13 @@ textarea {
   align-items: center;
 }
 
+.icons i {
+  font-size: 2rem;
+  color: var(--primary);
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
 
 
 @media (max-width: 1700px) {
