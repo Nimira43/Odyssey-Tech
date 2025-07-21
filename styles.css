@@ -392,11 +392,15 @@ html {
 
 .contact {
   width: 100%;
-  height: 100vh;
+  height: 100vh; 
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.contact .section-heading {
+  padding-top: 3rem;
 }
 
 .contact-content {
@@ -504,6 +508,11 @@ textarea {
   width: 35rem;
 }
 
+.input-group label i {
+  font-size: 1.2rem;
+  color: var(--secondary);
+}
+
 .input-group textarea {
   height: 12rem;
   margin-bottom: 2rem;
@@ -520,7 +529,12 @@ textarea {
   text-transform: uppercase;
   font-size: 1.6rem;
   letter-spacing: 0.2rem;
+  transition: background-color 0.5s ease-in;
   cursor: pointer;
+}
+
+.contact-btn:hover {
+  background-color: var(--dark);
 }
 
 @media (max-width: 1700px) {
