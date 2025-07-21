@@ -475,7 +475,22 @@ html {
   letter-spacing: 0.1rem;
   text-transform: uppercase;
   margin: 0 0 1.5rem 2rem;
+  color: white;
 }
+
+.input-group input,
+textarea {
+  height: 6rem;
+  margin: 0 3rem 5rem 0;
+  background-color: transparent;
+  border: 0.2rem solid white;
+  border-radius: 0.3rem;
+  font-size: 1.6rem;
+  color: white;
+  padding: 1rem 1rem 1rem 2rem;
+}
+
+
 
 @media (max-width: 1700px) {
   html {
