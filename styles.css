@@ -452,6 +452,19 @@ html {
 .contact-info span {
   width: 100%;
 }
+.contact-info span:nth-child(1) {
+  font-family: "Caveat", cursive;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.contact-info span:nth-child(2) {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #777;
+}
 
 .contact-right {
   width: 60rem;
@@ -500,7 +513,18 @@ textarea {
   resize: none;
 }
 
-
+.contact-btn {
+  width: calc(100% - 3rem);
+  height: 5rem;
+  background-color: transparent;
+  border: 0.2rem solid white;
+  border-radius: 3rem;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  letter-spacing: 0.2rem;
+  cursor: pointer;
+}
 
 @media (max-width: 1700px) {
   html {
