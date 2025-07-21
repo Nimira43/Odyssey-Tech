@@ -470,6 +470,13 @@ html {
   flex-direction: column;
 }
 
+.input-group label {
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  margin: 0 0 1.5rem 2rem;
+}
+
 @media (max-width: 1700px) {
   html {
     font-size: 57%;
